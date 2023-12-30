@@ -5,5 +5,5 @@ return {
         "nvim-tree/nvim-web-devicons",
     },
     opts = {},
-    event = {"BufNewFile", "BufReadPre", "VeryLazy"},
+    event = { "BufNewFile", "BufReadPre", "VeryLazy" },
 }

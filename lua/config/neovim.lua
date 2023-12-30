@@ -30,7 +30,7 @@ vim.opt.laststatus = 3
 vim.opt.hlsearch = false
 vim.opt.showmode = false
 
-vim.opt.completeopt = {"menu", "menuone", "noselect"}
+vim.opt.completeopt = { "menu", "menuone", "noselect" }
 vim.opt.clipboard = "unnamedplus"
 vim.opt.mouse = "a"
 vim.opt.shortmess:append("sI")

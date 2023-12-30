@@ -1,6 +1,6 @@
 return {
     "folke/neodev.nvim",
-    dependencies = {"hrsh7th/nvim-cmp"},
+    dependencies = { "hrsh7th/nvim-cmp" },
     opts = {},
-    event = {"BufNewFile", "BufReadPre", "VeryLazy"},
+    event = { "BufNewFile", "BufReadPre", "VeryLazy" },
 }

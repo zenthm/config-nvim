@@ -3,5 +3,5 @@ return {
     opts = {},
     config = require("config.plugins.nvim-treesitter"),
     build = ":TSUpdate",
-    event = {"BufNewFile", "BufReadPre", "VeryLazy"},
+    event = { "BufNewFile", "BufReadPre", "VeryLazy" },
 }

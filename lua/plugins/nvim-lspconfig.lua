@@ -1,5 +1,5 @@
 return {
     "neovim/nvim-lspconfig",
     config = require("config.plugins.nvim-lspconfig"),
-    event = {"BufNewFile", "BufReadPre", "VeryLazy"},
+    event = { "BufNewFile", "BufReadPre", "VeryLazy" },
 }

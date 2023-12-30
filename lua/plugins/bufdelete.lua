@@ -1,5 +1,5 @@
 return {
     "famiu/bufdelete.nvim",
     lazy = false,
-    dependencies = {"akinsho/bufferline.nvim"},
+    dependencies = { "akinsho/bufferline.nvim" },
 }

@@ -11,5 +11,5 @@ return {
     },
     opts = {},
     config = require("config.plugins.nvim-cmp"),
-    event = {"BufNewFile", "BufReadPre", "VeryLazy"},
+    event = { "BufNewFile", "BufReadPre", "VeryLazy" },
 }

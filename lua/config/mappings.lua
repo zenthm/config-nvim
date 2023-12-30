@@ -1,8 +1,8 @@
 local wk = require("which-key")
 
 wk.register({
-    ["x"] = { "\"_x", "Delete character" },
-    ["X"] = { "\"_dd", "Delete line "},
+    ["x"] = { '"_x', "Delete character" },
+    ["X"] = { '"_dd', "Delete line " },
     [",q"] = { "<cmd>qa<cr>", "Quit all" },
     [",Q"] = { "<cmd>qa!<cr>", "Force quit all" },
     [",w"] = { "<cmd>wa<cr>", "Write all" },
@@ -32,8 +32,12 @@ wk.register({
     ["<leader>k"] = { "<cmd>WhichKey<cr>", "Show WhichKey" },
     ["<leader>["] = { require("ufo").openAllFolds, "Open all folds" },
     ["<leader>]"] = { require("ufo").closeAllFolds, "Close all folds" },
-    ["<leader>9"] = { function() vim.opt.foldenable = false end, "Disable fold" },
-    ["<leader>0"] = { function() vim.opt.foldenable = true end, "Enable fold" },
+    ["<leader>fm"] = {
+        function(_, opts)
+            vim.lsp.buf.format({ async = true })
+        end,
+        "LSP formatting",
+    },
 })
 
 require("leap").create_default_mappings(true)

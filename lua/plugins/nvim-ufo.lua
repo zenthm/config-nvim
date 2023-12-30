@@ -5,5 +5,5 @@ return {
         "nvim-treesitter/nvim-treesitter",
     },
     opts = {},
-    event = {"BufNewFile", "BufReadPre", "VeryLazy"},
+    event = { "BufNewFile", "BufReadPre", "VeryLazy" },
 }
