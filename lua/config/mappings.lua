@@ -36,6 +36,8 @@ wk.register({
     ["j"] = { "<C-w>j", "Window down" },
     ["k"] = { "<C-w>k", "Window up" },
     ["l"] = { "<C-w>l", "Window right" },
+    ["<C-Left>"] = { "<cmd>BufferLineCyclePrev<CR>", "Previous tab" },
+    ["<C-Right>"] = { "<cmd>BufferLineCycleNext<CR>", "Next tab" },
     ["<leader>fm"] = {
         function(_, opts)
             vim.lsp.buf.format({ async = true })
