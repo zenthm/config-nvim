@@ -32,6 +32,10 @@ wk.register({
     ["<leader>k"] = { "<cmd>WhichKey<cr>", "Show WhichKey" },
     ["<leader>["] = { require("ufo").openAllFolds, "Open all folds" },
     ["<leader>]"] = { require("ufo").closeAllFolds, "Close all folds" },
+    ["h"] = { "<C-w>h", "Window left" },
+    ["j"] = { "<C-w>j", "Window down" },
+    ["k"] = { "<C-w>k", "Window up" },
+    ["l"] = { "<C-w>l", "Window right" },
     ["<leader>fm"] = {
         function(_, opts)
             vim.lsp.buf.format({ async = true })
