@@ -6,6 +6,7 @@ return function(_, opts)
             "html",
             "javascript",
             "lua",
+            "python",
         },
         highlight = {
             enable = true,
