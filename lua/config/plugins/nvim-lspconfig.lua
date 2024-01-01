@@ -21,6 +21,9 @@ return function(_, opts)
     lspconfig.pyright.setup({
         capabilities = lsp_capabilities,
     })
+    lspconfig.ruby_ls.setup({
+        capabilities = lsp_capabilities,
+    })
     lspconfig.tsserver.setup({
         capabilities = lsp_capabilities,
     })
