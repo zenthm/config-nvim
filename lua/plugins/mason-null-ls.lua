@@ -6,6 +6,10 @@ return {
     },
     opts = {
         ensure_installed = {
+            -- Linters
+            "ruff",
+
+            -- Formatters
             "black",
             "stylua",
         },
