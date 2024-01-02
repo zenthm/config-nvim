@@ -4,6 +4,7 @@ return function(_, opts)
     null_ls.setup({
         sources = {
             -- Diagnostics
+            null_ls.builtins.diagnostics.mypy,
             null_ls.builtins.diagnostics.ruff,
 
             -- Formatting

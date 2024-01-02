@@ -7,6 +7,7 @@ return {
     opts = {
         ensure_installed = {
             -- Linters
+            "mypy",
             "ruff",
 
             -- Formatters
